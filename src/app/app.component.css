@@ -1,0 +1,192 @@
+.bg-div {
+    background-color: white;
+    height: 368px;
+    width: 732px;
+    border-radius: 15px;
+    border: 1px solid white;
+    display: flex;
+}
+
+.pattern-desktop {
+    position: absolute;
+    transform: scale(0.8);
+    left: -304px;
+    top: -211px;
+}
+
+.illustration-woman {
+    transform: scale(0.8);
+    margin-left: -48px;
+    z-index: 1;
+    position: absolute;
+}
+
+.illustration-woman1 {
+    display: none;
+}
+
+.illustration-box {
+    transform: scale(0.7);
+    z-index: 999;
+    position: absolute;
+    margin-left: -113px;
+    margin-top: 122px;
+}
+
+.second-section {
+    padding-top: 40px;
+}
+
+.second-section-heading {
+    font-family: "Kumbh Sans";
+    padding-bottom: 30px;
+    padding-left: 101px;
+}
+
+.ques {
+    font: normal normal normal 11px Kumbh Sans;
+    color: hsl(240, 6%, 50%);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ques:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.ques.selectedColor {
+    color: black;
+    font-weight: 700;
+}
+
+.ans {
+    font: normal normal normal 11px Kumbh Sans;
+    color: hsl(240, 6%, 50%);
+}
+
+.ques-separator {
+    margin-top: 10px;
+    width: 332px;
+    border-color: #fdfcfc70;
+}
+
+.table-data {
+    padding-bottom: 10px;
+    padding-left: 101px;
+    padding-right: 66px;
+}
+
+.box {
+    height: 239px;
+    width: 243px;
+    margin-top: 136px;
+    margin-left: -4px;
+    border-radius: 15px;
+    background-color: hsl(240deg 29% 94% / 52%);
+    position: absolute;
+    transform: rotate3d(1, 2.7, 5, -141deg);
+    clip-path: polygon(-11% -10%, 2% 189%, 100% 85%, 33% -94%);
+}
+
+.box1{
+    display: none;
+}
+
+@media screen and (max-width: 1000px) and (orientation: portrait) {
+    .bg-div {
+        background-color: white;
+        height: 447px;
+        width: 299px;
+        border-radius: 15px;
+        border: 1px solid white;
+        display: flex;
+        margin-top: 69px;
+    }
+
+    .illustration-woman {
+        display: none;
+    }
+
+    .illustration-woman1 {
+        display: block;
+        transform: scale(0.5);
+        margin-top: -199px;
+        margin-left: -88px;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .illustration-box {
+        transform: scale(0.5);
+        z-index: 999;
+        position: absolute;
+        margin-left: -20px;
+        margin-top: -85px;
+    }
+
+    .pattern-desktop {
+        display: none;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .box1 {
+        display: block;
+        height: 160px;
+        width: 187px;
+        margin-top: -51px;
+        margin-left: 48px;
+        border-radius: 15px;
+        background-color: hsl(240deg 29% 94% / 52%);
+        position: absolute;
+        transform: rotate3d(1, 2.7, 5, -141deg);
+    }
+
+    .second-section {
+        padding-top: 123px;
+    }
+
+    .second-section-heading {
+        font-family: "Kumbh Sans";
+        padding-bottom: 30px;
+    }
+
+    .ques {
+        font: normal normal normal 11px Kumbh Sans;
+        color: hsl(240, 6%, 50%);
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .ques:hover {
+        color: hsl(14, 88%, 65%);
+    }
+
+    .ques.selectedColor {
+        color: black;
+        font-weight: 700;
+    }
+
+    .ans {
+        font: normal normal normal 11px Kumbh Sans;
+        color: hsl(240, 6%, 50%);
+    }
+
+    .ques-separator {
+        margin-top: 10px;
+        width: 260px;
+        border-color: hsl(0deg 17% 99% / 44%);
+    }
+
+    .table-data {
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+
+}
