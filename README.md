@@ -11,8 +11,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -34,6 +32,14 @@ Users should be able to:
 - Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process
+
+Desktop View
+
+<img width="943" alt="image" src="https://user-images.githubusercontent.com/71252906/223413905-6d289510-cd5b-400e-b169-80b4fd64375d.png">
+
+Mobile View
+
+<img width="281" alt="image" src="https://user-images.githubusercontent.com/71252906/223413820-f5951072-9b5e-453f-82dd-25c16127a34a.png">
 
 ### Built with
 
