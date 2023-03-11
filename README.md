@@ -93,4 +93,4 @@ onClickQues(selectedObj: any){
 ## Author
 
 - Website - [FAQ Accordian](https://nikita-faq-accordian.netlify.app/)
-- Frontend Mentor - [@29Nikita](https://www.frontendmentor.io/profile/29nikita)
+- Frontend Mentor - [@29nikita](https://www.frontendmentor.io/profile/29nikita)
